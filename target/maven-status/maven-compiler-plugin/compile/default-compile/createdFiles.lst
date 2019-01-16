@@ -1,0 +1,7 @@
+Controller\EtudiantController.class
+DAO\etudiantDao.class
+Entities\Etudiant.class
+DAO\EtudiantDaoImpl.class
+Service\EtudiantService.class
+DAO\HibernateUtil.class
+Service\EtudiantServiceImp.class

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 15, 2019 8:14:38 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Entities.Etudiant" table="etudiant" catalog="dbcontactstoo" optimistic-lock="version">
+        <id name="idEtudiant" type="string">
+            <column name="idEtudiant" length="30" />
+            <generator class="assigned" />
+        </id>
+        <property name="nom" type="string">
+            <column name="nom" length="20" not-null="true" />
+        </property>
+        <property name="prenom" type="string">
+            <column name="prenom" length="20" not-null="true" />
+        </property>
+        <property name="filiere" type="string">
+            <column name="filiere" length="20" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
